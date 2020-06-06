@@ -25,6 +25,8 @@ class App extends Component {
     // Will automatically be called after "App" is mounted
     // Included in React - NO NEED FOR ARROW FUNCTIONS
     componentDidMount(){
+        //CAN USE BELOW TO GET STATE!
+        //console.log(this.props.store.getState())
         console.log('check');
         //this.setState({ robots: robots});
         // Update to pull random users from API
